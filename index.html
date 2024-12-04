@@ -3,9 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CrashSim</title>
+    <title>Aviator Simples</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+    <div class="container">
+        <h1>Aviator Simples</h1>
+        <div class="status">Saldo: <span id="saldo">100</span></div>
+        <input type="number"  id="aposta" placeholder="Valor da aposta" min="1">
+        <button id="aposta">Apostar</button>
+        <div class="multipleir" id="multiplicador">1.00x</div>
+        <button class="cashout" id="cashout" disabled>Cashout</button>
+        <div class="status" id="resultado"></div>
+
+    </div>
+    <script src="script.js"></script>
 </body>
 </html>
